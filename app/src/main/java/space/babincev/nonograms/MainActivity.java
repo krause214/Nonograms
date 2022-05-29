@@ -1,4 +1,4 @@
-package com.example.firstapp;
+package space.babincev.nonograms;
 
 import androidx.appcompat.app.AppCompatActivity;
 
