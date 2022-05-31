@@ -7,11 +7,16 @@
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.332" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable-v24/style_btn_stroke_black_border.xml" value="0.272" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/btn_level.xml" value="0.272" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/btn_level_unpressed.xml" value="0.3215" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/btn_main_style.xml" value="0.272" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/field_btn_style.xml" value="0.3215" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.332" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/style_btn_stroke_black.xml" value="0.272" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/style_btn_stroke_white.xml" value="0.3215" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/drawable/style_checkbox_playground.xml" value="0.3215" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/layout/game_levels.xml" value="0.125" />
+        <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/layout/universal_level.xml" value="0.33" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.332" />
         <entry key="..\:/Users/andro/AndroidStudioProjects/FirstApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.332" />
       </map>

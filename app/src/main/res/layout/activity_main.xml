@@ -16,7 +16,7 @@
         android:fontFamily="@font/alfa_slab_one"
         android:text="@string/logo"
         android:textAlignment="center"
-        android:textColor="@color/textColor"
+        android:textColor="@color/mainColor"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,13 +44,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/btn_main_style"
+                android:fontFamily="@font/alfa_slab_one"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:text="@string/level_1"
                 android:textAllCaps="false"
-                android:textColor="@color/textColor"
-                android:textSize="24sp"
-                android:fontFamily="@font/alfa_slab_one" />
+                android:textColor="@color/mainColor"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button_level_2"
@@ -58,13 +58,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/btn_main_style"
+                android:fontFamily="@font/alfa_slab_one"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:text="@string/level_2"
                 android:textAllCaps="false"
-                android:textColor="@color/textColor"
-                android:textSize="24sp"
-                android:fontFamily="@font/alfa_slab_one"/>
+                android:textColor="@color/mainColor"
+                android:textSize="24sp" />
 
             <Button
                 android:id="@+id/button_level_3"
@@ -72,13 +72,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:background="@drawable/btn_main_style"
+                android:fontFamily="@font/alfa_slab_one"
                 android:paddingLeft="5dp"
                 android:paddingRight="5dp"
                 android:text="@string/level_3"
                 android:textAllCaps="false"
-                android:textColor="@color/textColor"
-                android:textSize="24sp"
-                android:fontFamily="@font/alfa_slab_one"/>
+                android:textColor="@color/mainColor"
+                android:textSize="24sp" />
         </LinearLayout>
 
     </LinearLayout>
