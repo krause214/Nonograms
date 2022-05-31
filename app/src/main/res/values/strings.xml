@@ -5,5 +5,7 @@
     <string name="level_1">Level 1</string>
     <string name="level_2">Level 2</string>
     <string name="level_3">Level 3</string>
-    <string name="column_rule_1">1 \n1 \n1 </string>
+    <string name="level_passed"> Level passed! </string>
+    <string name="continue_button"> Continue </string>
+
 </resources>

@@ -1,7 +1,5 @@
 package space.babincev.nonograms;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
@@ -14,18 +12,20 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Level1 extends AppCompatActivity implements View.OnClickListener {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Level2 extends AppCompatActivity implements View.OnClickListener {
 
     Dialog endLevelDialog;
 
     private Button[][] buttons = new Button[5][5];
     private int[][] buttonsValues = new int[5][5];
     private int[][] rightValues = {
-            {1,1,1,1,0},
-            {0,1,1,1,1},
-            {1,1,0,1,0},
             {1,1,1,1,1},
-            {1,1,1,1,0},
+            {1,1,0,1,1},
+            {0,1,1,1,0},
+            {0,0,1,0,0},
+            {1,1,1,1,1},
     };
 
     int sumResult = 0;
@@ -33,8 +33,8 @@ public class Level1 extends AppCompatActivity implements View.OnClickListener {
     private TextView[] rows = new TextView[5];
     private TextView[] columns = new TextView[5];
 
-    private String[] columnsStrings = {"1\n3","5","2\n2","5","1\n1"};
-    private String[] rowsStrings = {"    4","    4","  2 1","    5","    4"};
+    private String[] columnsStrings = {"2\n1","3\n1","1\n2","3\n1","2\n1"};
+    private String[] rowsStrings = {"    5","  2 2","    3","    1","    5"};
 
 
     @Override
@@ -125,7 +125,7 @@ public class Level1 extends AppCompatActivity implements View.OnClickListener {
             @Override
             public void onClick(View view) {
                 try {
-                    Intent intent = new Intent(Level1.this, MainActivity.class);
+                    Intent intent = new Intent(Level2.this, MainActivity.class);
                     startActivity(intent);
                     finish();
                 } catch (Exception ignored){
@@ -140,7 +140,7 @@ public class Level1 extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onBackPressed(){
     try {
-        Intent intent = new Intent(Level1.this, MainActivity.class);
+        Intent intent = new Intent(Level2.this, MainActivity.class);
         startActivity(intent);
         finish();
     }catch (Exception ignore){

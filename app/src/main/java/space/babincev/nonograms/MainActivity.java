@@ -31,5 +31,29 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        //переход на 2 уровень
+        Button level2 = (Button)findViewById(R.id.button_level_2);
+        level2.setOnClickListener(view -> {
+            try{
+                Intent intent = new Intent(MainActivity.this, Level2.class);
+                startActivity(intent);
+                finish();
+            } catch (Exception ignored){
+
+            }
+        });
+
+        //переход на 3 уровень
+        Button level3 = (Button)findViewById(R.id.button_level_3);
+        level3.setOnClickListener(view -> {
+            try{
+                Intent intent = new Intent(MainActivity.this, Level3.class);
+                startActivity(intent);
+                finish();
+            } catch (Exception ignored){
+
+            }
+        });
     }
 }
