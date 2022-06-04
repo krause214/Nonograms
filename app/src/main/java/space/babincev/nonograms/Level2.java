@@ -33,7 +33,7 @@ public class Level2 extends AppCompatActivity implements View.OnClickListener {
     private TextView[] rows = new TextView[5];
     private TextView[] columns = new TextView[5];
 
-    private String[] columnsStrings = {"2\n1","3\n1","1\n2","3\n1","2\n1"};
+    private String[] columnsStrings = {"2\n1","3\n1","1\n3","3\n1","2\n1"};
     private String[] rowsStrings = {"    5","  2 2","    3","    1","    5"};
 
 

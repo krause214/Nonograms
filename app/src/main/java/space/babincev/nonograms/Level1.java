@@ -1,11 +1,17 @@
 package space.babincev.nonograms;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.TintContextWrapper;
+import androidx.appcompat.widget.TintTypedArray;
+import androidx.core.view.TintableBackgroundView;
+import androidx.core.widget.TintableCompoundButton;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.LightingColorFilter;
+import android.graphics.PorterDuff;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
@@ -57,6 +63,7 @@ public class Level1 extends AppCompatActivity implements View.OnClickListener {
                 if (buttonsValues[i][j] != rightValues[i][j]){
                     sumResult++;
                 }
+                buttons[i][j].setBackgroundTintList( );
             }
 
         //инициализация rows
@@ -74,7 +81,7 @@ public class Level1 extends AppCompatActivity implements View.OnClickListener {
             textView.setText(columnsStrings[i]);
         }
     }
-    @SuppressLint("UseCompatLoadingForDrawables")
+    @SuppressLint({"UseCompatLoadingForDrawables", "ResourceAsColor"})
     @Override
     public void onClick(View view) {
 

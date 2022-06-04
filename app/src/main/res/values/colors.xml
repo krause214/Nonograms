@@ -9,5 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="grey">#95808080</color>
     <color name="colorPrimary">#333</color>
-    <color name="mainColor">#f5f5dc</color>
+    <color name="mainColor">#FFf5f5dc</color>
+
+
+    <!-- <color name="mainColor">#FFf5f5dc</color> -->
 </resources>

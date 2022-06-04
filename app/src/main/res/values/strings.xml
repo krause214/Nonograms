@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FirstApp</string>
+    <string name="app_name">Nonograms</string>
     <string name="logo">Nonograms</string>
     <string name="space"> </string>
     <string name="level_1">Level 1</string>
@@ -7,5 +7,6 @@
     <string name="level_3">Level 3</string>
     <string name="level_passed"> Level passed! </string>
     <string name="continue_button"> Continue </string>
+
 
 </resources>
