@@ -63,7 +63,6 @@ public class Level1 extends AppCompatActivity implements View.OnClickListener {
                 if (buttonsValues[i][j] != rightValues[i][j]){
                     sumResult++;
                 }
-                buttons[i][j].setBackgroundTintList( );
             }
 
         //инициализация rows
